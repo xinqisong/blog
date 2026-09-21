@@ -12,14 +12,6 @@ hero:
     - theme: alt
       text: GitHub
       link: https://github.com/xinqisong/blog
-
-features:
-  - title: Java 后端
-    details: Java 基础、核心技术、JUC 与面试题整理。
-  - title: 数据与中间件
-    details: MySQL、Redis、MongoDB、ActiveMQ、Nginx 等学习笔记。
-  - title: 工程实践
-    details: Git、Docker、IDEA、Hexo 以及日常开发经验。
 ---
 
 ## 关于这份笔记
