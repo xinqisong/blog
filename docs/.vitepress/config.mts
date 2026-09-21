@@ -29,9 +29,9 @@ export default defineConfig({
   markdown: {
     html: false,
   },
-  head: [['link', { rel: 'icon', href: '/blog/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   themeConfig: {
-    logo: '/blog/myicon.ico',
+    logo: '/myicon.ico',
     nav: [
       { text: '首页', link: '/' },
       { text: '项目笔记', link: '/ProjectMD/java基础语法' },
