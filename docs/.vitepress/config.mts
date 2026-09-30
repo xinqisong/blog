@@ -20,6 +20,27 @@ const projectMdItems = [
   { text: 'Redis 全套学习笔记', link: '/ProjectMD/Redis全套学习笔记.pdf' },
 ]
 
+const rewrites = {
+  'java/Java核心技术.md': 'ProjectMD/Java核心技术.md',
+  'java/java基础语法.md': 'ProjectMD/java基础语法.md',
+  'java/JUC初级.md': 'ProjectMD/JUC初级.md',
+  'web/JS.md': 'ProjectMD/JS.md',
+  'data/MySQL数据库笔记.md': 'ProjectMD/MySQL数据库笔记.md',
+  'data/Redis.md': 'ProjectMD/Redis.md',
+  'data/mongo.md': 'ProjectMD/mongo.md',
+  'data/MybatisPlus.md': 'ProjectMD/MybatisPlus.md',
+  'messaging/ActiveMQ.md': 'ProjectMD/ActiveMQ.md',
+  'engineering/Docker常用命令.md': 'ProjectMD/Docker常用命令.md',
+  'engineering/Nginx.md': 'ProjectMD/Nginx.md',
+  'engineering/Git基本操作.md': 'ProjectMD/Git基本操作.md',
+  'engineering/idea使用技巧.md': 'ProjectMD/idea使用技巧.md',
+  'engineering/hexo博客搭建.md': 'ProjectMD/hexo博客搭建.md',
+  'interview/面试题大全.md': 'ProjectMD/面试题大全.md',
+  'interview/面试题总结.md': 'ProjectMD/面试题总结.md',
+  'reference/常用.md': 'usefull/常用.md',
+  'reference/每日分享.md': 'usefull/每日分享.md',
+}
+
 export default defineConfig({
   title: '技术笔记',
   description: 'Java 后端与开发实践笔记',
@@ -27,6 +48,7 @@ export default defineConfig({
   appearance: { disableTransition: false },
   base: '/blog/',
   cleanUrls: true,
+  rewrites,
   markdown: {
     html: false,
   },
