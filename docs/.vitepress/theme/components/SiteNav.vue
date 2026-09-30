@@ -54,7 +54,7 @@ const toggleSidebar = () => {
     <div class="site-nav__inner">
       <a class="site-nav__brand" :href="homeLink" @click="closeMenu">
         <img :src="withBase('/myicon.ico')" alt="" />
-        <span>技术笔记</span>
+        <span>XINQISONG</span>
       </a>
 
       <nav class="site-nav__links" aria-label="主导航">

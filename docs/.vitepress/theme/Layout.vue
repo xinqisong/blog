@@ -11,6 +11,7 @@ import {
   useCloseSidebarOnEscape,
   useSidebar,
 } from 'vitepress/dist/client/theme-default/composables/sidebar'
+import HomeProfile from './components/HomeProfile.vue'
 import NotesGallery from './components/NotesGallery.vue'
 import NotFound from './components/NotFound.vue'
 import SiteNav from './components/SiteNav.vue'
@@ -66,7 +67,7 @@ provide('hero-image-slot-exists', heroImageSlotExists)
       <template #home-hero-info-after><slot name="home-hero-info-after" /></template>
       <template #home-hero-actions-after><slot name="home-hero-actions-after" /></template>
       <template #home-hero-image><slot name="home-hero-image" /></template>
-      <template #home-hero-after><slot name="home-hero-after" /></template>
+      <template #home-hero-after><HomeProfile /><slot name="home-hero-after" /></template>
       <template #home-features-before><slot name="home-features-before" /></template>
       <template #home-features-after><NotesGallery /></template>
       <template #doc-footer-before><slot name="doc-footer-before" /></template>
