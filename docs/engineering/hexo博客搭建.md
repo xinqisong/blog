@@ -30,7 +30,7 @@ hexo -v
 
 ## 将本地Git连接到GitHub
 
-[Git基本操作](/ProjectMD/Git基本操作)
+[Git基本操作](./Git基本操作.md)
 
 连接完成可以使用以下命令测试一波
 
