@@ -24,6 +24,7 @@ export default defineConfig({
   title: '技术笔记',
   description: 'Java 后端与开发实践笔记',
   lang: 'zh-CN',
+  appearance: { disableTransition: false },
   base: '/blog/',
   cleanUrls: true,
   markdown: {

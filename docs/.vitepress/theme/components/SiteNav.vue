@@ -2,6 +2,7 @@
 import { computed, ref } from 'vue'
 import { useData, useRoute, withBase } from 'vitepress'
 import { VPNavBarSearch } from 'vitepress/theme'
+import AppearanceControl from './AppearanceControl.vue'
 
 const props = defineProps<{
   hasSidebar: boolean
@@ -70,6 +71,7 @@ const toggleSidebar = () => {
       </nav>
 
       <div class="site-nav__actions">
+        <AppearanceControl id="site-appearance-desktop" />
         <VPNavBarSearch />
         <a class="site-nav__github" href="https://github.com/xinqisong/blog" target="_blank" rel="noreferrer">GitHub</a>
       </div>
@@ -95,6 +97,10 @@ const toggleSidebar = () => {
       >
         {{ item.text }}
       </a>
+      <div class="site-nav__mobile-appearance">
+        <span>外观模式</span>
+        <AppearanceControl id="site-appearance-mobile" />
+      </div>
       <button v-if="props.hasSidebar" type="button" @click="toggleSidebar">
         {{ props.sidebarOpen ? '关闭当前目录' : '打开当前目录' }}
       </button>
