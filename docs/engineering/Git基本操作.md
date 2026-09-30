@@ -136,7 +136,7 @@ git config --global user.email "xxxx@xxx.com"  邮箱标识  -------可以填写
 - 用户主目录 C:\Users\当前用户\.ssh
 ```
 
-![](./images/用户主目录.png)
+![](/ProjectMD/images/用户主目录.png)
 
 > 如果有的话，直接跳过此如下命令，如果没有的话，打开命令行，输入如下命令：
 
@@ -172,7 +172,7 @@ fatal: not a git repository (or any of the parent directories): .git
 - git本地创建然后提交同时创建
 - 通过github直接new repository 创建完成会出现以下信息
 
-![](./images/github创建仓库信息.png)
+![](/ProjectMD/images/github创建仓库信息.png)
 
 第一种是没有本地库初始化本地库直接提交并合并到远程仓库。
 
