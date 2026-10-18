@@ -85,7 +85,7 @@ export default defineConfig({
   description: '记录 Java 后端、数据库与工程实践的个人技术空间。',
   lang: 'zh-CN',
   appearance: { disableTransition: false },
-  base: '/blog/',
+  base: '/',
   cleanUrls: true,
   rewrites,
   markdown: {
