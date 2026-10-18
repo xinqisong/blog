@@ -1,10 +1,40 @@
-# 笔记分类
+---
+title: 全部分类
+description: 按主题浏览技术笔记。
+---
 
-当前笔记按主题分为六类。新文章归档后，也请同步更新对应分类页和侧栏。
+# 全部分类
 
-- [Java 与并发](/java/)：Java 语言基础、核心技术与 JUC。
-- [Web 开发](/web/)：JavaScript 基础。
-- [数据与持久化](/data/)：MySQL、Redis、MongoDB 与 MyBatis-Plus。
-- [消息中间件](/messaging/)：ActiveMQ 与 JMS。
-- [工程实践](/engineering/)：Git、Docker、Nginx、IDEA 与 Hexo。
-- [日常资料](/reference/)：常用命令、部署备忘和每日记录。
+按主题浏览笔记，进入分类后可以查看该主题下的文章。
+
+## AI
+
+[AI 笔记](/ai)
+
+## Java 与并发
+
+[Java 与并发笔记](/java/)
+
+## Web 开发
+
+[Web 开发笔记](/web/)
+
+## 数据与持久化
+
+[数据与持久化笔记](/data/)
+
+## 消息中间件
+
+[消息中间件笔记](/messaging/)
+
+## 工程实践
+
+[工程实践笔记](/engineering/)
+
+## 面试专题
+
+[面试专题笔记](/interview/)
+
+## 日常资料
+
+[日常资料](/reference/)

@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 const categoryLinks = [
+  { text: 'AI', link: '/ai' },
   { text: 'Java 与并发', link: '/java/' },
   { text: 'Web 开发', link: '/web/' },
   { text: '数据与持久化', link: '/data/' },
@@ -30,6 +31,14 @@ const categorySidebar = [
     ],
   },
   { text: '消息中间件', items: [{ text: 'ActiveMQ', link: '/ProjectMD/ActiveMQ' }] },
+  {
+    text: 'AI',
+    items: [
+      { text: 'Spring AI', link: '/ai/Spring%20AI' },
+      { text: 'AgentScope', link: '/ai/AgentScope' },
+      { text: 'Langchain4j', link: '/ai/Langchain4j' },
+    ],
+  },
   {
     text: '工程实践',
     items: [
@@ -78,7 +87,6 @@ export default defineConfig({
   appearance: { disableTransition: false },
   base: '/blog/',
   cleanUrls: true,
-  srcExclude: ['interview/index.md'],
   rewrites,
   markdown: {
     html: false,
@@ -90,7 +98,6 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '全部分类', link: '/categories/' },
-      { text: '关于我', link: '/#about' },
     ],
     sidebar: {
       '/': [{ text: '笔记分类', items: categoryLinks }],
@@ -99,6 +106,7 @@ export default defineConfig({
       '/data/': categorySidebar,
       '/messaging/': categorySidebar,
       '/engineering/': categorySidebar,
+      '/ai': categorySidebar,
       '/reference/': categorySidebar,
       '/ProjectMD/': categorySidebar,
       '/usefull/': categorySidebar,

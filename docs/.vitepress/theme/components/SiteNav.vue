@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
-import { useData, useRoute, withBase } from 'vitepress'
+import { ref } from 'vue'
+import { useRoute, withBase } from 'vitepress'
 import { VPNavBarSearch } from 'vitepress/theme'
 import AppearanceControl from './AppearanceControl.vue'
 
@@ -13,16 +13,14 @@ const emit = defineEmits<{
   toggleSidebar: []
 }>()
 
-const { theme } = useData()
 const route = useRoute()
 const menuOpen = ref(false)
 const homeLink = withBase('/')
 
-const navItems = computed(() =>
-  (theme.value.nav ?? []).filter(
-    (item): item is { text: string; link: string } => 'link' in item,
-  ),
-)
+const navItems = [
+  { text: '首页', link: '/' },
+  { text: '全部分类', link: '/categories/' },
+]
 
 const isExternal = (link: string) => /^https?:\/\//.test(link)
 
