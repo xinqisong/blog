@@ -47,6 +47,7 @@ const categorySidebar = [
       { text: 'Nginx', link: '/ProjectMD/Nginx' },
       { text: 'IDEA 使用技巧', link: '/ProjectMD/idea使用技巧' },
       { text: 'Hexo 博客搭建', link: '/ProjectMD/hexo博客搭建' },
+      { text: '图床搭建：PicGo + R2', link: '/engineering/图床搭建之picgo+r2' },
     ],
   },
   {
