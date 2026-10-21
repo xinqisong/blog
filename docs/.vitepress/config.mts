@@ -18,6 +18,13 @@ const categorySidebar = [
       { text: 'Java 基础语法', link: '/ProjectMD/java基础语法' },
       { text: 'Java 核心技术', link: '/ProjectMD/Java核心技术' },
       { text: 'JUC 初级', link: '/ProjectMD/JUC初级' },
+      {
+        text: '网络编程',
+        items: [
+          { text: 'Java 网络编程：NIO', link: '/java/Java网络编程-NIO' },
+          { text: 'Netty', link: '/java/Netty' },
+        ],
+      },
     ],
   },
   { text: 'Web 开发', items: [{ text: 'JavaScript', link: '/ProjectMD/JS' }] },

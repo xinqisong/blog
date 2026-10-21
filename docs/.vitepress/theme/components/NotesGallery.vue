@@ -8,7 +8,7 @@ const cards = [
     title: 'Java 与并发',
     label: 'JAVA / CONCURRENCY',
     mark: 'JVM',
-    description: 'Java 语法、核心技术与 JUC 并发编程。',
+    description: 'Java 语法、核心技术、JUC 并发与 NIO / Netty 网络编程。',
     link: '/java/',
   },
   {

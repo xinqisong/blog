@@ -1,10 +1,12 @@
 import { existsSync, readFileSync } from 'node:fs'
-import { dirname, join } from 'node:path'
+import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 // The custom GitHub Pages domain serves the uploaded dist directory at /.
-const dist = join(dirname(fileURLToPath(import.meta.url)), '..', 'docs', '.vitepress', 'dist')
-const pages = ['index.html', join('ai', 'AgentScope.html')]
+const dist = process.argv[2]
+  ? resolve(process.argv[2])
+  : join(dirname(fileURLToPath(import.meta.url)), '..', 'docs', '.vitepress', 'dist')
+const pages = ['index.html', join('ai', 'AgentScope.html'), join('java', 'Java网络编程-NIO.html'), join('java', 'Netty.html')]
 const assets = [...new Set(pages.flatMap((page) => {
   const html = readFileSync(join(dist, page), 'utf8')
   return [...html.matchAll(/\b(?:src|href)="(\/[^"?#]+\.(?:js|css|woff2?|ico|png|svg))"/g)]

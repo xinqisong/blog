@@ -15,6 +15,8 @@ description: 按主题浏览技术笔记。
 
 [Java 与并发笔记](/java/)
 
+语言基础、核心类库、JUC 并发与 NIO / Netty 网络编程。
+
 ## Web 开发
 
 [Web 开发笔记](/web/)

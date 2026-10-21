@@ -4,7 +4,7 @@
 
 ## 笔记目录
 
-- `docs/java/`：Java 语法、核心技术与并发。
+- `docs/java/`：Java 语法、核心技术、并发与网络编程（NIO、Netty）。
 - `docs/web/`：Web 与 JavaScript。
 - `docs/data/`：数据库、缓存与数据访问框架。
 - `docs/messaging/`：消息中间件。
