@@ -142,3 +142,22 @@ Custom Domains -->  Add
 
 
 
+
+## 八、 写作流程简化
+
+主要简化两个流程：
+
+- 使用 Typora
+- 使用 VS Code
+
+### Typora流程优化
+
+配置好后，截图的图片直接粘贴后会自动上传。
+
+![image-20261021220344533](https://img.istsong.com/2026/10/56696ed53bba59e4a0076c1d3652f322.png)
+
+
+
+### VS Code流程优化
+
+插件商店搜索 PicGo。
